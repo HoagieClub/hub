@@ -9,6 +9,7 @@ import './hub.css'
 
 function Content({ Component, pageProps }) {
     const tabs = [
+        { href: '/directory', title: 'Directory' },
     ];
     const user = useUser();
 

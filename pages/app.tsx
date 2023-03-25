@@ -6,6 +6,7 @@ import {
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import View from '../components/View';
+import ProfileCard from '../lib/hoagie-ui/ProfileCard';
 
 export default withPageAuthRequired(() => {
     const { user, isLoading } = useUser();
