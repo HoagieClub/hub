@@ -10,6 +10,7 @@ export default function View({ children }) {
             marginX="8px"
             paddingBottom="24px"
             paddingTop="64px"
+            backgroundColor="#E9DDFE"
         >
             <Pane
                 borderRadius={8}
