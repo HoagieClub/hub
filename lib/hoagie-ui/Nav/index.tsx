@@ -4,7 +4,8 @@ import {
 import { ComponentType } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import ProfileCard from '../ProfileCard'
+// import ProfileCard from '../ProfileCard'
+import ProfileCard from '../../../components/ProfileCard'
 
 interface NavProps {
     /** name of app for hoagie{name} title */
